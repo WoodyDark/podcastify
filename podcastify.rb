@@ -7,7 +7,7 @@ require 'colorize'
 system("clear")
 puts ""
 puts ""
-puts "Welcome to #{"Podcastify".yellow}. #{"Podcastify".yellow} is a script developed by Jeffrey Soong to help save you time and effort, by automating bulk podcasts download in the background while you do your work. #{"Podcastify".yellow} only works for Relay FM shows"
+puts "Welcome to #{"Podcastify".yellow}. #{"Podcastify".yellow} is a script developed to help save you time and effort, by automating bulk podcasts download in the background while you do your work. #{"Podcastify".yellow} only works for Relay FM shows"
 puts ""
 puts ""
 
