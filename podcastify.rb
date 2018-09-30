@@ -81,7 +81,7 @@ puts ""
 
 
 #Question3
-puts "Configuration complete. Download will be starting shortly. Please ensure you have an active internet connection. To cancel download, press [Ctrl+C] or [Command+C]"
+puts "#{'Configuration complete. Download will be starting shortly. Please ensure you have an active internet connection.'.green} To cancel download, press [Ctrl+C] or [Command+C]"
 puts ""
 episode = episode_start
 while episode != episode_end+1
