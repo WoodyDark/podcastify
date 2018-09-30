@@ -3,7 +3,7 @@ Podcastify is a bulk podcast downloader for RelayFM content. This is a simple sc
 
 
 # How to use
-You must first have Ruby installed on your computer. If you don't have it, do check out the link below to learn how you can install ruby on your OS.
+You must first have Ruby installed on your computer to run this script. If you don't have it, do check out the link below to learn how you can install ruby on your OS.
 https://www.ruby-lang.org/en/downloads/
 
 Once you have Ruby installed, you will need 2 additional gems/library to make this functional. Open your terminal, type in the following:
@@ -11,9 +11,9 @@ Once you have Ruby installed, you will need 2 additional gems/library to make th
 'gem install nokogiri'
 'gem install colorize'
 
-Once both gems installation are complete, create a new folder for the script(podcastify.rb), this is where all the downloads will be saved as well.
+Once both gems installation are complete, download this as a zip. Place it in your preferred directory, right click and choose 'extract here'. The generated folder is called 'podcastify-master', and I recommend keeping the actual script inside the folder as all of the downloads will be stored in the same directory.
 
-To use, launch your terminal, navigate to the script directory and type "ruby podcastify.rb", follow the prompt and you download will begin shortly.
+To use, launch your terminal, navigate to the script directory and type "ruby podcastify.rb", follow the prompt and your download will begin shortly.
 
 # How does it work?
 Behind the scenes, the script is essentially browsing relay.fm and clicking the buttons without loading up the browser. First it loads up "relay.fm/shows" and reads the site for all the existing show names, and displays it to the user. When you choose a site, it loads up the URL of the show and check for the latest episode, and then tells you what the latest episode is, so that you have an idea.
